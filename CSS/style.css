@@ -38,7 +38,7 @@ p{
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 #bolanos > p{
@@ -54,7 +54,7 @@ h1 {
   font-family: "Ledger", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px;
+  font-size: 48px;
   text-align: center;
 }
 
@@ -63,5 +63,24 @@ li {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 24px;
+  font-size: 16px;
 }
+
+/*      Main        */
+main{
+  background-color: var(--backgroudColorGeral);
+}
+
+/*            Transição         */
+.transition {
+  background: linear-gradient(to right,#ffffff00, var(--divTransitionColor), #ffffff00);
+  height: 2px;
+  width: 100%;
+}
+
+
+/*================Navigation=================*/
+
+
+
+
