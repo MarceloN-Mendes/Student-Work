@@ -17,5 +17,51 @@ a {
 img {
     width: 100%;
     height: auto;
-
   }
+/*============Variaveis=============*/
+
+:root{
+    --marcaTexto--Sombra: rgba(99, 201, 44, 0.5); 
+    --backgroudColorGeral: #444444;
+    --divTransitionColor: #FFFFFF; 
+    --paragrafoColor: #FFFFFF;
+    --titleColor: #FFFFFF;
+    --arrowColor: rgba(255,255,255,0.25);
+    --colorCircleMove: #D9D9D9;
+    --navBackgroundColor: #1b1b1b;
+}
+
+/* Paragrafos: weight = tamanho, usar somente os presentes no figma, Libre Franklin, semiBold = 600, extraBold = 800*/
+
+p{
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+}
+
+#bolanos > p{
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  
+}
+
+/*Titulos: weight = tamanho, usar os presentes no figma, Ledger, regular = 400*/
+h1 {
+  font-family: "Ledger", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+}
+
+/*Links e nomes: weight = tamanho, usar os presentes no figma, IBM plex Mono, regular = 400*/
+li {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
