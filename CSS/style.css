@@ -73,13 +73,33 @@ main{
 
 /*            Transição         */
 .transition {
-  background: linear-gradient(to right,#ffffff00, var(--divTransitionColor), #ffffff00);
-  height: 2px;
+  background: linear-gradient(to right, var(--backgroudColorGeral), var(--divTransitionColor), var(--backgroudColorGeral));
+  height: 1px;
   width: 100%;
 }
 
 
 /*================Navigation=================*/
+
+header {
+  display: flex;
+  height: min-content;
+  background-color: var(--navBackgroundColor);
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px 0 20px;
+}
+
+nav > ul{
+  display: flex;
+  align-items: center;
+}
+
+
+#imgNav {
+  height: 60px;
+  width: 56px;
+}
 
 
 
