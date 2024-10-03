@@ -80,19 +80,31 @@ main{
 
 
 /*================Navigation=================*/
+header{
+  position: fixed;
+  width: 100%;
+}
 
-header {
+nav{
   display: flex;
+  width: 100%;
   height: min-content;
   background-color: var(--navBackgroundColor);
   align-items: center;
-  justify-content: space-around;
-  padding: 0 20px 0 20px;
+  justify-content: space-evenly;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-right: 25%;
 }
 
 nav > ul{
   display: flex;
   align-items: center;
+}
+
+nav > ul > li > a{
+  margin-right: 20px;
+  color: var(--paragrafoColor);
 }
 
 
@@ -101,6 +113,7 @@ nav > ul{
   width: 56px;
 }
 
+/*===========Main===============*/
 
 
 
