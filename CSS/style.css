@@ -14,10 +14,7 @@ a {
     text-decoration: none;
   }
     
-img {
-    width: 100%;
-    height: auto;
-  }
+ 
 /*============Variaveis=============*/
 
 :root{
@@ -39,6 +36,8 @@ p{
   font-weight: 600;
   font-style: normal;
   font-size: 16px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #bolanos > p{
@@ -59,7 +58,7 @@ h1 {
 }
 
 /*Links e nomes: weight = tamanho, usar os presentes no figma, IBM plex Mono, regular = 400*/
-li {
+.Links {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: normal;
@@ -69,6 +68,9 @@ li {
 /*      Main        */
 main{
   background-color: var(--backgroudColorGeral);
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #444444;
 }
 
 /*            Transição         */
@@ -113,9 +115,56 @@ nav > ul > li > a{
   width: 56px;
 }
 
-/*===========Main===============*/
+/*===========Link 1===============*/
 
 #chaves{
   text-align: center;
+  padding-top: 80px;
+}
+ 
+/*----------Link 3---------*/
+.people {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 30px;
 }
 
+#Alinhar {
+  display: flex;
+  margin: 50px;
+  justify-content: center;
+}
+
+/*----------Link 4---------*/
+#curiosidades{
+  display: inline-block;
+  flex-wrap: wrap;
+}
+ 
+/*#chavesfoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 30px;
+  display: inline-block;
+}
+ ----- inativo devido a falta de capacidade da Mariana de fazer a ideia se concretizar*/
+
+/*----------Link 7---------*/
+.nomes{
+  display: flex;
+  justify-content: center;
+}
+
+/*----------body---------*/
+body{
+  background-color: #444444;
+}
+
+/*----------Fotos do design do site---------*/
+.fotosdesign {
+  width: 100%;
+  Height:250px;
+  top: 25px;
+}
