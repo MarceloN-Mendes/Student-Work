@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,13 +19,13 @@
         
         
             <ul>
-                <li><a href="#chaves">Link 1</a></li>
-                <li><a href="#bolanos">Link 2</a></li>
-                <li><a href="#pesquisa">Link 3</a></li>
-                <li><a href="#curiosidades">Link 4</a></li>
-                <li><a href="#influenciaMex">Link 5</a></li>
-                <li><a href="#influenciaBrasil">Link 6</a></li>
-                <li><a href="#grupo">Link 7</a></li>
+                <li class="Links"><a href="#chaves">Link 1</a></li>
+                <li class="Links"><a href="#bolanos">Link 2</a></li>
+                <li class="Links"><a href="#pesquisa">Link 3</a></li>
+                <li class="Links"><a href="#curiosidades">Link 4</a></li>
+                <li class="Links"><a href="#influenciaMex">Link 5</a></li>
+                <li class="Links"><a href="#influenciaBrasil">Link 6</a></li>
+                <li class="Links"><a href="#grupo">Link 7</a></li>
             </ul>
         </nav>
         <div class="transition" id="temp"></div>
@@ -31,21 +33,22 @@
     
     <main>
         <div class="container" id="chaves">
-            <h1>Chaves</h1>
-            <p>
-               <strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita</strong> fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo, itaque fuga voluptatum, vel sapiente perspiciatis nihil officia, unde ratione possimus ab quibusdam pariatur minima dolores modi magni ducimus recusandae?
-
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsum, aut magnam <strong>quos quae eligendi fuga officiis est deleniti obcaecati ab alias repellat accusantium</strong>, eaque ad qui distinctio dolore explicabo?
+                <h1>Chaves</h1>
+                <p>
+                <strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita</strong> fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo, itaque fuga voluptatum, vel sapiente perspiciatis nihil officia, unde ratione possimus ab quibusdam pariatur minima dolores modi magni ducimus recusandae?
 
-            </p>
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsum, aut magnam <strong>quos quae eligendi fuga officiis est deleniti obcaecati ab alias repellat accusantium</strong>, eaque ad qui distinctio dolore explicabo?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
+
+                </p>
         </div>
 
         <div class="container" id="bolanos">
+        <div class="transition" id="temp"></div>
             <h1>Roberto Bolaños</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
@@ -59,42 +62,56 @@
             
             </p>
         </div>
-
+        <div class="transition" id="temp"></div>
         <div class="container" id="pesquisa">
+
             <h1>Pesquisa de Campo</h1>
-            <ul>
-                <li><img src="img/Perfil.jpg" alt="foto de perfil generica"></li>
-                <li><img src="img/Perfil.jpg" alt="foto de perfil generica"></li>
-                <li><img src="img/Perfil.jpg" alt="foto de perfil generica"></li>
-                <li><img src="img/Perfil.jpg" alt="foto de perfil generica"></li>
-                <li><img src="img/Perfil.jpg" alt="foto de perfil generica"></li>
+            
+            <ul id="scrollPerguntas">
+                <li><img class="people" src="img/Perfil.jpg" alt="foto de perfil generica" onclick="people1()"></li>
+                <li><img class="people" src="img/Perfil.jpg" alt="foto de perfil generica"></li>
+                <li><img class="people" src="img/Perfil.jpg" alt="foto de perfil generica"></li>
+                <li><img class="people" src="img/Perfil.jpg" alt="foto de perfil generica"></li>
+                <li><img class="people" src="img/Perfil.jpg" alt="foto de perfil generica"></li>
+              
+               
             </ul>
         </div>
 
+        
+
         <div class="container" id="curiosidades">
-            <img src="img/ChaveSim.jpeg" alt="Movimento de afirmacao do seriado chaves">
+            <div class="transition" id="temp"></div>
             <h1>Curiosidades</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
-
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam accusantium quibusdam fugit quam est reprehenderit dicta soluta ipsum pariatur quod necessitatibus numquam totam commodi repudiandae neque, error nostrum placeat perspiciatis?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo, itaque fuga voluptatum, vel sapiente perspiciatis nihil officia, unde ratione possimus ab quibusdam pariatur minima dolores modi magni ducimus recusandae?
-
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, deleniti vitae provident saepe enim magni odio, dolorem assumenda, mollitia quibusdam veritatis voluptatem at! Similique, rerum cumque? Asperiores nihil aliquam quod.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
-
-            </p>
+            <div id="contBoxCurio">
+                <div class="boxCurio">    
+                    <img id="chavesfoto" src="img/ChaveSim.jpeg" alt="Movimento de afirmacao do seriado chaves">
+                    
+                    <p class="textocurios">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
+                      </p>
+                </div>
+                <div class="boxCurio">
+                    <p class="textocurios">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam accusantium quibusdam fugit quam est reprehenderit dicta soluta ipsum pariatur quod necessitatibus numquam totam commodi repudiandae neque, error nostrum placeat perspiciatis?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo, itaque fuga voluptatum, vel sapiente perspiciatis nihil officia, unde ratione possimus ab quibusdam pariatur minima dolores modi magni ducimus recusandae?
+                    </p>
+                    <p id="textocurios">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, deleniti vitae provident saepe enim magni odio, dolorem assumenda, mollitia quibusdam veritatis voluptatem at! Similique, rerum cumque? Asperiores nihil aliquam quod.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit perferendis voluptatibus, sequi quisquam mollitia natus porro rem molestias sint voluptatum officia repudiandae nobis, deleniti unde voluptate magni doloribus excepturi. Voluptas.
+                    </p>
+                </div>
+            </div>
         </div>
 
+        
+
         <div class="container" id="influenciaMex">
-            
-            <img src="img/Mexico.jpg" alt="Imagem da prefeitura do meximo" id="classMex">
+            <div class="transition" id="temp"></div>
+            <img class="fotosdesign" src="img/Mexico.jpg" alt="Imagem da prefeitura do meximo" id="classMex">
             <div class="transition"></div>
             
             <h1>Influencia no Mexico</h1>
@@ -108,10 +125,13 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo, itaque fuga voluptatum, vel sapiente perspiciatis nihil officia, unde ratione possimus ab quibusdam pariatur minima dolores modi magni ducimus recusandae?
 
-            </p>
+            </p>    
         </div>
 
+        
+
         <div class="container" id="influenciaBrasil">
+            <div class="transition" id="temp"></div>
             <h1>Influencia No Brasil</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, recusandae quibusdam et aliquid veniam molestiae accusamus explicabo asperiores expedita fuga debitis quisquam sapiente architecto neque porro, nam at fugit labore?
@@ -124,20 +144,23 @@
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae eum ex repudiandae iure adipisci, repellat quo eius deleniti beatae magni non quia totam? Repellat numquam id, cum amet fugit architecto?
             </p>
             <div class="transition"></div>
-            <img src="img/Crianca.png" alt="imagem de criancas bricando">
+            <img class="fotosdesign"  src="img/Crianca.png" alt="imagem de criancas bricando">
         </div>
 
+        
+
         <div class="container" id="grupo">
+            <div class="transition" id="temp"></div>
             <h1>Grupo</h1>
             <ul>
-                <li>Marcelo</li>
-                <li>Mariana</li>
-                <li>Maria Isabel</li>
+                <li class="nomes">Marcelo</li>
+                <li class="nomes">Mariana</li>
+                <li class="nomes">Maria Isabel</li>
             </ul>
             <ul>
-                <li>Giovanna</li>
-                <li>Joyce</li>
-                <li>Anna Beatriz</li>
+                <li class="nomes">Giovanna</li>
+                <li class="nomes">Joyce</li>
+                <li class="nomes">Anna Beatriz</li>
             </ul>
         </div>
 
